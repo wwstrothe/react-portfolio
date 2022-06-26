@@ -1,8 +1,12 @@
 import React from 'react'
 
+
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <h4>Made by Will</h4>
+    </footer>
+
   )
 }
 

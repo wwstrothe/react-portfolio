@@ -32,7 +32,7 @@ const About = () => {
           </p>
           <p>
             When I'm not working, I am can be found spending time with my wife
-            and our 9 dogs, playing video games, re-watching my favorite
+            and our 7 dogs, playing video games, re-watching my favorite
             trilogy, or reading fantasy novels.
           </p>
         </Col>

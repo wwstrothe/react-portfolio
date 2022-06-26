@@ -9,7 +9,6 @@ const Resume = () => {
             <a class="button" href="./Assets/William Strothe's Resume.pdf" target="_blank">View Full Resume</a>
         </div>
         <Row>
-            
                 <Col>
                     <h4>+ Education</h4>
                     <p>
@@ -55,7 +54,6 @@ const Resume = () => {
                     <h5>Coming Soon</h5>
                     <p>Learning Javascript to improve on previously made websites</p>
                 </Col>
-            
         </Row>
     </section>
   );
