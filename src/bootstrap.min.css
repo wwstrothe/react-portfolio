@@ -4805,7 +4805,7 @@ fieldset:disabled .btn {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 2px solid transparent;
+  border: 2px solid #333;
   border-radius: 25px;
   transition: box-shadow 0.15s ease-in-out;
 }
@@ -4823,7 +4823,7 @@ fieldset:disabled .btn {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem;
+  
 }
 
 .navbar-toggler-icon {

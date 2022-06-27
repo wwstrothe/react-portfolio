@@ -18,9 +18,9 @@ const About = () => {
           </div>
         </Col>
         <Col lg={8} md={9}>
-          <h3>My name is Will</h3>
+          <h5>My name is Will</h5>
           <p>
-            I am a 26 year old always trying to learn new technologies, skills,
+            I am a 27 year old always trying to learn new technologies, skills,
             and languages. This way I can stay in the forefront of the evolving
             tech atmosphere.
           </p>

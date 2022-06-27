@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header-content">
-      <Navbar className="header-height" bg="light" expand="lg" variant>
+      <Navbar className="header-height" expand="lg" variant>
         <Container>
           <Navbar.Brand href="/">
             <Link to="/" className="nav-bar name">William Strothe</Link>
