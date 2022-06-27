@@ -4,16 +4,21 @@ import { Row, Col } from 'react-bootstrap'
 const About = () => {
   return (
     <section className="page">
-      <h1 className="title">Welcome to my Site!</h1>
-      <Row>
+      <Row className="about-card border-primary bg-light">
         <Col lg={4} md={3}>
-          <img
-            src={`${process.env.PUBLIC_URL}/Images/portfolio image.jpg`}
-            alt=""
-          />
+            <div class="card-header">
+              <h1 className="text-center">Welcome to my Site!</h1>
+              <div className="d-flex justify-content-center">
+                <img
+                  className="will-img"
+                  src={`${process.env.PUBLIC_URL}/Images/portfolio image.jpg`}
+                  alt=""
+                />
+              </div>
+            </div>
         </Col>
         <Col lg={8} md={9}>
-          <h5>My name is Will</h5>
+          <h3>My name is Will</h3>
           <p>
             I am a 26 year old always trying to learn new technologies, skills,
             and languages. This way I can stay in the forefront of the evolving

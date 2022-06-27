@@ -1,10 +1,4 @@
 /* general styling */
-:root {
-  --yellow: #d4af37;
-  --brown: #996515;
-  --border-color: #edc903;
-  --bs-success: #56cc9d;
-}
 
 * {
   margin: 0;
@@ -37,12 +31,17 @@ h1 {
 
 /* Header & Nav Styling */
 
+
 .nav-row {
   font-size: 2.25vw;
 }
 
 .nav-bar {
   font-size: 2.25vw;
+}
+
+.name {
+  font-size: 2.45vw
 }
 
 /* Banner styling */
@@ -64,6 +63,26 @@ h1 {
 }
 
 /* About Me page styling */
+
+.will-img {
+
+  border-radius: 18px;
+}
+
+.about-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #333;
+    border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
+  }
+
+
 
 .about-me {
   max-width: 52vw;
@@ -121,4 +140,7 @@ h1 {
   h1 {
     padding-top: 6.5px;
   }
+    .will-img {
+      min-width: 100%;
+    }
 }
