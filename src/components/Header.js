@@ -1,19 +1,24 @@
-import React from 'react'
-import Navigation from './Navigation';
-import { Navbar, Container } from 'react-bootstrap'; 
+import React from "react";
+import Navigation from "./Navigation";
+import { Navbar, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="/">William Strothe</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-        <Navigation/>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className="header-content">
+      <Navbar className="header-height" bg="light" expand="lg" variant>
+        <Container>
+          <Navbar.Brand href="/">
+            <Link to="/" className="nav-bar">William Strothe</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Navigation />
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
   );
-}
+};
 
-export default Header
+export default Header;

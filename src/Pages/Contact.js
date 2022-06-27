@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helper";
 
-function ContactForm() {
+function Contact() {
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -40,7 +40,7 @@ function ContactForm() {
 
   return (
     <section className="contact-form-content">
-      <h2 className="top-title text-center">Contact Form</h2>
+      <h1 className="top-title text-center">Contact Form</h1>
       <hr></hr>
       <form class="justify-content-center">
         <div>
@@ -100,4 +100,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Contact;

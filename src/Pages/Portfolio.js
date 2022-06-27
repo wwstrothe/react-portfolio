@@ -6,7 +6,7 @@ import { Row } from 'react-bootstrap'
 const Portfolio = () => {
   return (
     <div className="page">
-      <h2>Portfolio</h2>
+      <h1>Portfolio</h1>
       <Row>
         {projects.map((project) => (
           <ProjectCard project={project} />

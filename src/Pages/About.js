@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap'
 const About = () => {
   return (
     <section className="page">
-      <h2 className="title">Welcome to my Site!</h2>
+      <h1 className="title">Welcome to my Site!</h1>
       <Row>
         <Col lg={4} md={3}>
           <img
