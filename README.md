@@ -45,7 +45,7 @@ In the project directory, you can run:
 
 ## [Application](#table-of-contents)
 
-![application-screenshot](/public/images/react-portfolio.jpg)
+![application-screenshot](/public/Images/react-portfolio.jpg)
 
 [Go to Deployed Application](https://wwstrothe.github.io/react-portfolio/)
 
