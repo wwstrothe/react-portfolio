@@ -1,10 +1,32 @@
 /* general styling */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(-90deg, #b695a6, #725d6c, #3d3f4b, #5a616b);
+    background-size:400% 400%;
+  -webkit-animation: Animation 15s ease infinite;
+    -moz-animation: Animation 15s ease infinite;
+    animation: Animation 15s ease infinite;
+}
+
+#gradient {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  font-size: 30px;
+  background: linear-gradient(130deg, #ff7e00, #ffffff, #5cff00);
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+
 
 h1 {
   font-size: larger;
@@ -138,5 +160,50 @@ h1 {
 @media screen and (max-width: 575px) {
   h1 {
     padding-top: 6.5px;
+  }
+}
+
+
+
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 10% 0%
+  }
+
+  50% {
+    background-position: 91% 100%
+  }
+
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+@-moz-keyframes Animation {
+  0% {
+    background-position: 10% 0%
+  }
+
+  50% {
+    background-position: 91% 100%
+  }
+
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%
+  }
+
+  50% {
+    background-position: 91% 100%
+  }
+
+  100% {
+    background-position: 10% 0%
   }
 }
