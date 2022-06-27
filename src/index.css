@@ -64,11 +64,6 @@ h1 {
 
 /* About Me page styling */
 
-.will-img {
-
-  border-radius: 18px;
-}
-
 .about-card {
     position: relative;
     display: flex;
@@ -95,6 +90,10 @@ h1 {
 }
 
 /* Projects Styling */
+
+.project-image {
+  border-radius: 3px 3px 3px 3px;
+}
 
 /* Resume styling */
 .resume-pdf {
@@ -140,7 +139,4 @@ h1 {
   h1 {
     padding-top: 6.5px;
   }
-    .will-img {
-      min-width: 100%;
-    }
 }

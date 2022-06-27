@@ -4,18 +4,18 @@ import { Row, Col } from 'react-bootstrap'
 const About = () => {
   return (
     <section className="page">
+      <h1 className="text-center"> About Me</h1>
       <Row className="about-card border-primary bg-light">
-        <Col lg={4} md={3}>
-            <div class="card-header">
-              <h1 className="text-center">Welcome to my Site!</h1>
-              <div className="d-flex justify-content-center">
-                <img
-                  className="will-img"
-                  src={`${process.env.PUBLIC_URL}/Images/portfolio image.jpg`}
-                  alt=""
-                />
-              </div>
+        <Col lg={4}>
+          <div class="card-header">
+            <div className="d-flex justify-content-center">
+              <img
+                className="will-img card-header"
+                src={`${process.env.PUBLIC_URL}/Images/portfolio image.jpg`}
+                alt=""
+              />
             </div>
+          </div>
         </Col>
         <Col lg={8} md={9}>
           <h3>My name is Will</h3>

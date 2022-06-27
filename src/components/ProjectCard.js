@@ -22,8 +22,9 @@ const ProjectCard = ({project}) => {
     // </Card>
 
     <Col xs={12} md={6} lg={4} xl={3} className='d-flex justify-content-center' >
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Img
+          className='project-image'
           variant="top"
           src={`${process.env.PUBLIC_URL}/Images/${project.image}`}
         />

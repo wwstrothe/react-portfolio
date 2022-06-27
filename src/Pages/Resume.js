@@ -20,7 +20,7 @@ return (
     </Row>
 
     <Row className="resume-body">
-      <Col>
+      <Col lg={4}>
         <div className="card border-primary mb-3 bg-light">
           <div class="card-body">
             <h4>+ SKILLS AND TECHNOLOGIES</h4>
@@ -41,7 +41,7 @@ return (
         </div>
       </Col>
 
-      <Col>
+      <Col lg={4}>
         <div className="card border-primary mb-3 bg-light">
           <div class="card-body">
             <h4>+ Recent Projects</h4>
@@ -78,7 +78,7 @@ return (
         </div>
       </Col>
 
-      <Col>
+      <Col lg={4}>
         <div className="card border-primary mb-3 bg-light">
           <div class="card-body">
             <h4>+ Education</h4>
@@ -98,7 +98,6 @@ return (
           </div>
         </div>
       </Col>
-      
     </Row>
   </section>
 );
