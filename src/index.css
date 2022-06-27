@@ -6,9 +6,9 @@
 }
 
 body {
-  background: linear-gradient(-90deg,#042B4E, #0E487C, #19637E, #AAAAAA);
+  background: linear-gradient(-45deg,#042B4E, #0E487C, #19637E, #AAAAAA);
   background-size: 300% 300%;
-  animation: gradient 28s ease infinite;
+  animation: gradient 10s ease infinite;
   animation-direction: alternate;
   height: 100vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
