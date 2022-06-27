@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "NoSQL Social Network API",
-    image: "workinprogress297x396.jpg",
+    image: "NoSQL-API.jpg",
     description:
       "This is an API for a social network where users can share their thoughts, react to friends' thoughts, and create a friends list.",
     link: "https://drive.google.com/file/d/1o3UOxAmlBV5MDB3sMhT0XtHxu0NZ1Nnx/view",
@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 2,
     title: "PWA Web Application",
-    image: "workinprogress297x396.jpg",
+    image: "PWA-web-app.jpg",
     description:
       "Using Progressive Web Application (PWA) this application enables the user to add expenses and deposits to their budget. The browser Cache API is used to store the application's HTML, CSS, and JavaScript, controlled by a service worker.",
     link: "https://secure-hollows-22505.herokuapp.com/",
@@ -20,7 +20,7 @@ export const projects = [
   {
     id: 3,
     title: "Doggy Daycare",
-    image: "workinprogress297x396.jpg",
+    image: "Doggy-Daycare.jpg",
     description:
       "Created an app for a Doggy Daycare business to keep track of its Dogs, Users, Appointments, and Comments on dogs from other users.",
     link: "https://vast-plains-21432.herokuapp.com/",
@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 4,
     title: "MVC Tech Blog",
-    image: "workinprogress297x396.jpg",
+    image: "MVC-techblog.jpg",
     description:
       "A basic CMS-style blog site that was created using the Model, View, Controller paradigm. This site is currently hosted on Heroku and can also be run locally using the files located in the GitHub repository Github.",
     github: "https://github.com/wwstrothe/mvc-tech-blog",
@@ -38,7 +38,7 @@ export const projects = [
   {
     id: 5,
     title: "Employee Tracker",
-    image: "workinprogress297x396.jpg",
+    image: "employee-tracker.jpg",
     description:
       "A command-line application to manage a company's Employee database, using Node.js, Inquirer, and MySQL.",
     github: "https://github.com/wwstrothe/employee-tracker",
@@ -47,7 +47,7 @@ export const projects = [
   {
     id: 6,
     title: "Work Day Scheduler",
-    image: "workinprogress297x396.jpg",
+    image: "workday-schedule.jpg",
     description:
       "A scheduling app, allowing a user to plan their day, storing events in local storage.",
     github: "https://github.com/wwstrothe/workday-scheduler",
@@ -56,7 +56,7 @@ export const projects = [
   {
     id: 7,
     title: "README Generator",
-    image: "workinprogress297x396.jpg",
+    image: "readme-generator.jpg",
     description:
       "A command-line application that allows users to devote more time to building projects by automatically generating a README.md after answering a series of questions.",
     link: "https://drive.google.com/file/d/16UdmAxQVrnEgZWQhFlVscsc9Bxsojhpj/view",
@@ -65,7 +65,7 @@ export const projects = [
   {
     id: 8,
     title: "Weather Dashboard",
-    image: "workinprogress297x396.jpg",
+    image: "weather-dashboard.jpg",
     description:
       "A simple web application that allows users to search for a city to get the current weather and 5 day forecast. Cities that users previously looked up will be saved in their local storage..",
     link: "https://ysaad01.github.io/weather-dashboard/",

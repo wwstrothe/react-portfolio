@@ -10,7 +10,7 @@ return (
         <Button
           className="btn-lg"
           variant="link"
-          href={`${process.env.PUBLIC_URL}/will-resume.pdf`}
+          href={`${process.env.PUBLIC_URL}/William Strothe's Resume.pdf`}
           target="_blank"
           rel="noreferrer"
         >
