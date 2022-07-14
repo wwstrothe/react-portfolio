@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: 3,
+    title: "The Delicious Connection",
+    image: "tdc.jpg",
+    description:
+      "A Random Restaurant Generator using provided input to populate a restaurant for our user to eat at.",
+    link: "https://delcon.herokuapp.com/",
+    github: "https://github.com/wwstrothe/the-delicious-connection",
+  },
+  {
     id: 1,
     title: "NoSQL Social Network API",
     image: "NoSQL-API.jpg",
@@ -16,15 +25,6 @@ export const projects = [
       "Using Progressive Web Application (PWA) this application enables the user to add expenses and deposits to their budget. The browser Cache API is used to store the application's HTML, CSS, and JavaScript, controlled by a service worker.",
     link: "https://secure-hollows-22505.herokuapp.com/",
     github: "https://github.com/wwstrothe/pwa-budget-tracker",
-  },
-  {
-    id: 3,
-    title: "Doggy Daycare",
-    image: "Doggy-Daycare.jpg",
-    description:
-      "Created an app for a Doggy Daycare business to keep track of its Dogs, Users, Appointments, and Comments on dogs from other users.",
-    link: "https://vast-plains-21432.herokuapp.com/",
-    github: "https://github.com/wwstrothe/Doggy-Daycare/",
   },
   {
     id: 4,
